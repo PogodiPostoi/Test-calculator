@@ -26,6 +26,7 @@ html {
 
 @font-face {
     font-family: 'DIN Condensed';
+    src: url('/fonts/DINCondensed-Light.eot');
     src: local('DIN Condensed Light'), local('DINCondensed-Light'),
         url('/fonts/DINCondensed-Light.eot?#iefix') format('embedded-opentype'),
         url('/fonts/DINCondensed-Light.woff2') format('woff2'),
@@ -37,6 +38,7 @@ html {
 
 @font-face {
     font-family: 'DIN Condensed';
+    src: url('/fonts/DINCondensed-Regular.eot');
     src: local('DIN Condensed'), local('DINCondensed-Regular'),
         url('/fonts/DINCondensed-Regular.eot?#iefix') format('embedded-opentype'),
         url('/fonts/DINCondensed-Regular.woff2') format('woff2'),
