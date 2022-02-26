@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Тест на калькуляцию</title>
+    <title>Арифметический тест</title>
 </head>
 <body>
     <div class="main">
         <div class="test">
+            <h1 class="test__title">Арифметический тест</h1>
             <div class="test__unit">
                 <label class="test__unit-label" for="q1">Сколько будет 5 + 8?</label>
                 <input class="test__unit-input" type="text" name="question 1" id="q1">
@@ -23,13 +24,14 @@
                 <input class="test__unit-input" type="text" name="question 3" id="q3">
             </div>
             <div class="test__unit">
-                <label class="test__unit-label" for="q4">Сколько будет 130 / 12?</label>
+                <label class="test__unit-label" for="q4">Сколько будет 130 / 12? <br><span>(Округлить до сотых)</span></label>
                 <input class="test__unit-input" type="text" name="question 4" id="q4">
             </div>
             <div class="test__unit">
-                <label class="test__unit-label" for="q5">Сколько будет 157 % 12?</label>
+                <label class="test__unit-label" for="q5">Сколько будет 157 % 2?</label>
                 <input class="test__unit-input" type="text" name="question 5" id="q5">
             </div>
+            <button class="test__button" id="finish">Проверить</button>
         </div>
     </div>
 
