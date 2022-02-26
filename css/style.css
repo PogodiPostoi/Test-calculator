@@ -7,23 +7,6 @@ bgc: #f1f3f9 (серо-синий)
 Кнопки / тайтл: #4065e4 (синий)
 */
 
-html {
-    font-family: 'DIN Condensed';
-    font-size: 16px;
-    color: #5a5b72;
-}
-
-*,
-*::before, 
-*::after {
-    box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 @font-face {
     font-family: 'DIN Condensed';
     src: url('/fonts/DINCondensed-Light.eot');
@@ -46,6 +29,23 @@ html {
         url('/fonts/DINCondensed-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+}
+
+html {
+    font-family: 'DIN Condensed';
+    font-size: 16px;
+    color: #5a5b72;
+}
+
+*,
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
