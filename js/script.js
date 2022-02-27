@@ -22,6 +22,9 @@ const checkTest = () => {
         result++
     }
     if(a5 == '1') {
+        result++
+    }
+    if(result == 5) {
         alertRes = 'Все ответы правильны!'
     } else {
         alertRes = `Правильных результатов: ${result} из 5`
